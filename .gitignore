@@ -73,3 +73,4 @@ freebuoyancy_gz/
 auv_octomap/
 
 !.gitignore
+robot_localization_debug.txt
