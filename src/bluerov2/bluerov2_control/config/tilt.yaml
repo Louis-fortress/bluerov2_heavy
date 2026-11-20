@@ -1,0 +1,6 @@
+cmd_tilt:
+    type: std_msgs/Float64
+    angle:
+        min: -pi/2
+        max: pi/2
+        to: data

@@ -1,0 +1,18 @@
+digraph G {
+"world" -> "bluerov2/base_link"[label=" Broadcaster: default_authority\nAverage rate: 1050.01\nBuffer length: 4.939\nMost recent transform: 185.149\nOldest transform: 180.21\n"];
+"bluerov2/camera" -> "bluerov2/camera_optical"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bluerov2/base_link" -> "bluerov2/camera"[label=" Broadcaster: default_authority\nAverage rate: 20.206\nBuffer length: 4.85\nMost recent transform: 185.1\nOldest transform: 180.25\n"];
+"bluerov2/base_link" -> "bluerov2/dvl"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bluerov2/base_link" -> "bluerov2/imu"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bluerov2/base_link" -> "bluerov2/pressure"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bluerov2/base_link" -> "bluerov2/thruster1"[label=" Broadcaster: default_authority\nAverage rate: 20.206\nBuffer length: 4.85\nMost recent transform: 185.1\nOldest transform: 180.25\n"];
+"bluerov2/base_link" -> "bluerov2/thruster2"[label=" Broadcaster: default_authority\nAverage rate: 20.206\nBuffer length: 4.85\nMost recent transform: 185.1\nOldest transform: 180.25\n"];
+"bluerov2/base_link" -> "bluerov2/thruster3"[label=" Broadcaster: default_authority\nAverage rate: 20.206\nBuffer length: 4.85\nMost recent transform: 185.1\nOldest transform: 180.25\n"];
+"bluerov2/base_link" -> "bluerov2/thruster4"[label=" Broadcaster: default_authority\nAverage rate: 20.206\nBuffer length: 4.85\nMost recent transform: 185.1\nOldest transform: 180.25\n"];
+"bluerov2/base_link" -> "bluerov2/thruster5"[label=" Broadcaster: default_authority\nAverage rate: 20.206\nBuffer length: 4.85\nMost recent transform: 185.1\nOldest transform: 180.25\n"];
+"bluerov2/base_link" -> "bluerov2/thruster6"[label=" Broadcaster: default_authority\nAverage rate: 20.206\nBuffer length: 4.85\nMost recent transform: 185.1\nOldest transform: 180.25\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1792659965.1759765"[ shape=plaintext ] ;
+}->"world";
+}
